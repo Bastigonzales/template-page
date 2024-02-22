@@ -102,6 +102,32 @@ img {
 	margin-bottom: 20px;
 }
 
+/* Testimonials */
+.testimonials {
+	padding: 40px 0;
+}
+
+.testimonials .testimonials-heading {
+	width: 700px;
+	margin-bottom: 40px;
+}
+
+.bg-testimonials bg-dark {
+	background: var(--dark-color);
+	color: #fff;
+}
+
+.testimonials-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.testimonials .card p:nth-child(2) {
+	margin-top: 30px;
+	font-weight: bold;
+}
+
 /* Utility Classes */
 .container {
 	max-width: 1100px;
@@ -207,4 +233,12 @@ img {
 .bg-black {
 	background: var(--black-color);
 	color: #fff;
+}
+
+/* Card */
+.card {
+	background: #fff;
+	color: var(--black-color);
+	border-radius: 10px;
+	padding: 20px;
 }
