@@ -8,6 +8,7 @@
 	--primary-color: #4891ff;
 	--light-color: #f4f4f6;
 	--dark-color: #111;
+	--black-color: black;
 }
 
 body {
@@ -83,6 +84,21 @@ img {
 
 .hero .hero-text {
 	width: 70%;
+	margin-bottom: 20px;
+}
+
+/* Video */
+.video {
+	padding: 10px 0 40px;
+}
+
+.video-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.video-preview {
 	margin-bottom: 20px;
 }
 
@@ -170,4 +186,25 @@ img {
 
 .text-center {
 	text-align: center;
+}
+
+/* Background */
+.bg-primary {
+	background: var(--primary-color);
+	color: #fff;
+}
+
+.bg-light {
+	background: var(--light-color);
+	color: #333;
+}
+
+.bg-dark {
+	background: var(--dark-color);
+	color: #fff;
+}
+
+.bg-black {
+	background: var(--black-color);
+	color: #fff;
 }
