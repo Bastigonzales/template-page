@@ -8,7 +8,7 @@
 	--primary-color: #4891ff;
 	--light-color: #f4f4f6;
 	--dark-color: #111;
-	--black-color: black;
+	--black-color: #000;
 }
 
 body {
@@ -141,6 +141,14 @@ img {
 	padding: 0 15px;
 }
 
+/* Card */
+.card {
+	background: #fff;
+	color: var(--black-color);
+	border-radius: 10px;
+	padding: 20px;
+}
+
 /* Buttons */
 .btn {
 	display: inline-block;
@@ -233,12 +241,4 @@ img {
 .bg-black {
 	background: var(--black-color);
 	color: #fff;
-}
-
-/* Card */
-.card {
-	background: #fff;
-	color: var(--black-color);
-	border-radius: 10px;
-	padding: 20px;
 }
