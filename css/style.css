@@ -213,6 +213,11 @@ img {
 	text-align: center;
 }
 
+.faq ul.faq-menu li.active {
+	background: var(--primary-color);
+	color: #fff;
+}
+
 /* Utility Classes */
 .container {
 	max-width: 1100px;
